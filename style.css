@@ -1,0 +1,124 @@
+/* top-nav */
+.navbar-brand img{
+  width: 10rem;
+}
+
+#top-nav .navbar-toggler:focus{
+  box-shadow: none;
+}
+
+#top-nav .navbar-toggler:active{
+  border: 3px inset grey;
+  border-radius: 20%;
+}
+
+#top-nav .navbar-toggler img{
+  max-width: 100%;
+}
+
+#menu .nav-link{
+  display: inline-block;
+}
+
+#menu img{
+  width: 2.2rem;
+}
+
+/* jumbotron */
+#jumbotron{
+  background-color: #00ffff;
+  padding: 2.5rem 0;
+}
+
+#jumbotron .motto p{
+  margin: 4rem 0;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+/* features */
+#features{
+  padding: 6.5rem 0;
+}
+
+#features .col-lg-4{
+  text-align: center;
+  padding: 0 2rem;
+}
+
+#features .col-lg-4 div:last-child{
+  padding-top: 2rem;
+  font-family: 'Hubballi', cursive;
+}
+
+#features img{
+  width: 6rem;
+  border-radius: 50%;
+}
+
+@media screen and (max-width:991.2px) {
+  #features .col-lg-4 div:last-child{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 4rem;
+  }
+}
+
+/* carousel-background */
+#carousel-background{
+  width: 100%;
+  position: absolute;
+}
+
+#carousel-background *{
+  height: 100%;
+  width: 100%;
+}
+
+#carousel-background .slide{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(5px);
+}
+
+/* features-carousel */
+#features-carousel{
+  padding: 4rem 0;
+}
+
+#features-carousel .carousel-indicators{
+  margin-bottom: 0;
+}
+
+#features-carousel .title,.content{
+  margin: 0 12%;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: white;
+  text-shadow: -1px 0px 0 black, 1px 0px 0 black, 0px -1px 0 black, 0px 1px 0 black;
+}
+
+#features-carousel .title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#features-carousel .title span{
+  margin-left: 3%;
+  font-size: 3rem;
+  font-family: 'Abril Fatface', cursive;
+}
+
+#features-carousel .title img{
+  width: 4rem;
+  border-radius: 50%;
+}
+
+#features-carousel .content{
+  font-family: 'Hubballi', cursive;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
