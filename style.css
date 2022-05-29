@@ -59,9 +59,7 @@
 
 @media screen and (max-width:991.2px) {
   #features .col-lg-4 div:last-child{
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-bottom: 4rem;
+    padding: 2rem 13vw 4rem;
   }
 }
 
