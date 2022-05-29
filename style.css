@@ -50,6 +50,7 @@
 #features .col-lg-4 div:last-child{
   padding-top: 2rem;
   font-family: 'Hubballi', cursive;
+  font-size: 20px;
 }
 
 #features img{
@@ -119,4 +120,12 @@
   font-family: 'Hubballi', cursive;
   font-size: 1.6rem;
   font-weight: bold;
+}
+
+/* get-quote */
+#get-quote{
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
